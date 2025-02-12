@@ -1,0 +1,6 @@
+cl <- colorRampPalette(c("forestgreen","palegoldenrod")) (100) 
+par(mfrow=c(2,2))
+plot(Cbm17,col=cl, main="2017")
+plot(Cbm17,col= viridis(2), main="2017 colorblind") 
+plot(Cbm24,col=cl, main="2024")
+plot(Cbm24,col= viridis(2), main="2024 colorblind")
