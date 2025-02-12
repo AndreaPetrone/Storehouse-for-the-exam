@@ -9,3 +9,6 @@ bmG24<-maradiTC24[[2]]
 bmB24<-maradiTC24[[3]]
 bmI24<-maradiFC24[[1]]
 bm24<-c(bmR24,bmG24, bmB24,bmI24)
+
+Cbm17<-im.classify(bm17, num_clusters=2)
+Cbm24<-im.classify(bm24, num_clusters=2)
