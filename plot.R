@@ -1,0 +1,5 @@
+par(mfrow=c(2,2))
+plot(maradiTC17,main="True color 2017")
+plot(maradiFC17,main="False color 2017")
+plot(maradiTC24,main="True color 2024")
+plot(maradiFC24,main="False color 2024")
