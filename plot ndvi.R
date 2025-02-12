@@ -1,0 +1,5 @@
+par(mfrow=c(2,2))
+plot(ndvi2017,col=cl1, main="NDVI 2017")
+plot(ndvi2017,col=viridis(100), main="NDVI 2017 (colorblind)")
+plot(ndvi2024,col=cl1, main="NDVI 2024")
+plot(ndvi2024,col=viridis(100), main="NDVI 2024 (colorblind)")
